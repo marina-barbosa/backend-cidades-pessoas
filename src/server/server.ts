@@ -4,7 +4,7 @@ import { Response } from 'express';
 const server = express();
 
 server.get('/teste', (_, response: Response) => {
-    return response.send('Hello World!');
+  return response.send('Hello World!');
 });
 
 export { server };
